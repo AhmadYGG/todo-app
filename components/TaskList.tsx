@@ -1,5 +1,5 @@
 'use client'
-import { Task } from '@/app/page'
+import { Task } from '../app/page'
 
 export default function TaskList({ tasks, onToggle, onRemove }: { tasks: Task[], onToggle: (id:string)=>void, onRemove: (id:string)=>void }){
   if (!tasks.length) return <div className="text-gray-400 p-6 bg-gray-800 rounded">No tasks yet — add your first task.</div>
