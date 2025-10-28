@@ -22,7 +22,7 @@ export default function TaskInput({ onAdd }: { onAdd: (text: string, tag?: strin
         value={text}
         onChange={e => setText(e.target.value)}
         className="flex-1 bg-gray-700 placeholder-gray-400 rounded px-3 py-2 outline-none"
-        placeholder="Add task e.g. 'Implement /startshift command'"
+        placeholder="Add task e.g. 'Doing homework'"
       />
       <input
         value={tag}
