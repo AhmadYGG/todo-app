@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 import Header from '../components/Header'
 
 export const metadata = {
-  title: 'Noverra ToDo',
+  title: 'Noverra ToDo Apps',
   description: 'Simple task manager for Noverra Roleplay',
 }
 

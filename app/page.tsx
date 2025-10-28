@@ -91,7 +91,7 @@ export default function Page() {
           <div>
             <h1 className="text-2xl font-semibold">Your ToDo</h1>
             <p className="text-sm text-gray-400">
-              Simple task board for developing feature.
+              Simple task board for make your ToDo.
             </p>
           </div>
 
